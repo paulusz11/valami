@@ -1,4 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200&family=Yaldevi:wght@200&display=swap');
+
 body {
-    background-color: gray;
-    color: red;
+    background: url('background.jpg') no-repeat center fixed;     
+    background-size: cover;
+}
+main {
+    background-color: rgba(205, 148, 216, 0.5) ;
+    font-size: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+header {
+    font-family: 'Stick No Bills', sans-serif;
+    color: green;
+    background: rgba(172, 255, 47, 0.479);
+    font-size: 200%;
+    border-radius: 10px;
+}
+
+nav th {
+        font-family: 'Stick No Bills', sans-serif;
+        font-size: 400%;
+        color: hotpink;
+        border: 1px solid hotpink;
+}
+nav table {
+        background: rgba(85, 47, 255, 0.521);
+        width: 100%;
+        border: 1px solid hotpink;
+        border-radius: 10px;
+}
+.content {
+    font-size: 280%;
+    height: auto;
+    border-radius: 10px;
+    font-family: 'Yaldevi', sans-serif;
+    color: white;
+    padding-left: 10px;
+}
+
+a:visited, a:active, a:link {
+    color: hotpink;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+}
+img {
+    border: 2px solid black;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+.nobor {
+    border: none;
 }
